@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Navigation", "Navigation\Navigation.vcxproj", "{8E623BB1-1B7B-4F8E-A051-72F53A9AB620}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WowNavApi", "WowNavApi\WowNavApi.csproj", "{D1A74F3C-A841-461F-80EF-E4FDCF09F3D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WowNavApiTests", "WowNavApiTests\WowNavApiTests.csproj", "{DD32D011-4ED9-4E04-AA4C-6FD568E5589E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{BF14BF65-1684-4814-B9D8-FCE79E6B7EB1}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WowNavClient", "WowNavClient\WowNavClient.csproj", "{EF09E259-AE14-4AE0-90A9-567A75245F03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WowNavBase", "WowNavBase\WowNavBase.csproj", "{AF19F064-3F62-4349-83F9-9E6F5B7E44C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WowNavClientExample", "WowNavClientExample\WowNavClientExample.csproj", "{897498A3-EE29-42CE-9653-7CDAB07CBA8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E623BB1-1B7B-4F8E-A051-72F53A9AB620}.Debug|x86.ActiveCfg = Debug|Win32
+		{8E623BB1-1B7B-4F8E-A051-72F53A9AB620}.Debug|x86.Build.0 = Debug|Win32
+		{8E623BB1-1B7B-4F8E-A051-72F53A9AB620}.Release|x86.ActiveCfg = Release|Win32
+		{8E623BB1-1B7B-4F8E-A051-72F53A9AB620}.Release|x86.Build.0 = Release|Win32
+		{D1A74F3C-A841-461F-80EF-E4FDCF09F3D4}.Debug|x86.ActiveCfg = Debug|x86
+		{D1A74F3C-A841-461F-80EF-E4FDCF09F3D4}.Debug|x86.Build.0 = Debug|x86
+		{D1A74F3C-A841-461F-80EF-E4FDCF09F3D4}.Release|x86.ActiveCfg = Release|x86
+		{D1A74F3C-A841-461F-80EF-E4FDCF09F3D4}.Release|x86.Build.0 = Release|x86
+		{DD32D011-4ED9-4E04-AA4C-6FD568E5589E}.Debug|x86.ActiveCfg = Debug|x86
+		{DD32D011-4ED9-4E04-AA4C-6FD568E5589E}.Debug|x86.Build.0 = Debug|x86
+		{DD32D011-4ED9-4E04-AA4C-6FD568E5589E}.Release|x86.ActiveCfg = Release|x86
+		{DD32D011-4ED9-4E04-AA4C-6FD568E5589E}.Release|x86.Build.0 = Release|x86
+		{EF09E259-AE14-4AE0-90A9-567A75245F03}.Debug|x86.ActiveCfg = Debug|x86
+		{EF09E259-AE14-4AE0-90A9-567A75245F03}.Debug|x86.Build.0 = Debug|x86
+		{EF09E259-AE14-4AE0-90A9-567A75245F03}.Release|x86.ActiveCfg = Release|x86
+		{EF09E259-AE14-4AE0-90A9-567A75245F03}.Release|x86.Build.0 = Release|x86
+		{AF19F064-3F62-4349-83F9-9E6F5B7E44C6}.Debug|x86.ActiveCfg = Debug|x86
+		{AF19F064-3F62-4349-83F9-9E6F5B7E44C6}.Debug|x86.Build.0 = Debug|x86
+		{AF19F064-3F62-4349-83F9-9E6F5B7E44C6}.Release|x86.ActiveCfg = Release|x86
+		{AF19F064-3F62-4349-83F9-9E6F5B7E44C6}.Release|x86.Build.0 = Release|x86
+		{897498A3-EE29-42CE-9653-7CDAB07CBA8E}.Debug|x86.ActiveCfg = Debug|x86
+		{897498A3-EE29-42CE-9653-7CDAB07CBA8E}.Debug|x86.Build.0 = Debug|x86
+		{897498A3-EE29-42CE-9653-7CDAB07CBA8E}.Release|x86.ActiveCfg = Release|x86
+		{897498A3-EE29-42CE-9653-7CDAB07CBA8E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B3D6DFA-38EF-4D7E-98B6-E43FBFD8ABC7}
+	EndGlobalSection
+EndGlobal
